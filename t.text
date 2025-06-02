@@ -1,0 +1,20 @@
+
+
+
+npm create vite@latest 
+
+cd  crypto_exchange_fullstack
+
+cd front_end
+
+npm install
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+npm install react-router-dom
+
+npm install -D @tailwindcss/postcss
+
+
+npm run dev

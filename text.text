@@ -1,0 +1,75 @@
+python -m venv env
+
+
+source env/Scripts/activate
+
+python -m pip install Django
+
+django-admin startproject back_end .
+
+
+cd  crypto_exchange_fullstack
+
+cd back_end
+
+python manage.py runserver 
+
+python manage.py makemigrations
+python manage.py migrate
+
+pip install django-cors-headers
+
+
+python manage.py createsuperuser
+
+python manage.py shell
+
+http://127.0.0.1:8000/admin/
+
+
+git remote add origin https://github.com/Sina202222/Sina_Ecomerce.git
+git branch -M main
+git pull --rebase origin main
+
+git commit -m "Initial commit"
+git push -u origin main
+
+git push -u origin main
+
+sina_ecomers/ 
+    │ 
+    ├── apii/ 
+    │   ├── __pycache__
+    │   ├── migrations
+    │   ├── init.py  
+    │   ├── urls.py 
+    │   ├── models.py 
+    │   └── ... 
+    |
+    |
+    ├── backend_project/ 
+    │   ├── init.py 
+    │   ├── settings.py 
+    │   ├── urls.py 
+    │   └── ... 
+    │ 
+    |
+    ├── front_end/ 
+    │   ├── node_modules 
+    │   ├── public 
+    │   ├── src 
+    │   ├── postcss.config.js 
+    │   ├── tailwind.config.js
+    │   ├── vite.config.ts 
+    │   └── ... 
+    │ 
+    |
+    |── manage.py
+    |── db.sqlite3 
+    |── README.md 
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+ اضافه شدن فایل ها به  Staged Changes
+
+git add .
+
+git restore --staged index.html
+
+برگشت فایل های اضافه شده به Changes
+
+git restore .
+
+برای کد هایی که داخل فایل  تغییر داده ای از 
+
+git clean -f
+
+git restore .
+
+
+git init 
+
+git add .
+
+git commit -m "  create Product "
+
+git remote add origin https://github.com/Sina202222/Sina_Ecomerce.git
+
+
+git branch -M main
+git push -u origin main
+
+git pull origin main
+
+ فقط تغییرات محلی خود را بارگذاری کنید
+git push -f origin main
