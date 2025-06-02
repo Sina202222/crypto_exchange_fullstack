@@ -5,7 +5,7 @@ source env/Scripts/activate
 
 python -m pip install Django
 
-django-admin startproject back_end .
+django-admin startproject backend .
 
 
 cd  crypto_exchange_fullstack

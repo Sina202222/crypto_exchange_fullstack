@@ -1,3 +1,6 @@
+cd  crypto_exchange_fullstack
+ 
+ 
  اضافه شدن فایل ها به  Staged Changes
 
 git add .
