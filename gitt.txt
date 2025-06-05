@@ -22,7 +22,7 @@ git init
 
 git add .
 
-git commit -m "  create Product "
+git commit -m "  create back_end , frant "
 
 git remote add origin https://github.com/Sina202222/Sina_Ecomerce.git
 

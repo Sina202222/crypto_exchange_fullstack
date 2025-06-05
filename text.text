@@ -1,7 +1,13 @@
 python -m venv env
 
 
+
 source env/Scripts/activate
+
+pip install django djangorestframework
+
+pip install django-cors-headers drf-yasg python-dotenv
+
 
 python -m pip install Django
 
@@ -17,6 +23,7 @@ python manage.py runserver
 python manage.py makemigrations
 python manage.py migrate
 
+pip install djangorestframework
 pip install django-cors-headers
 
 

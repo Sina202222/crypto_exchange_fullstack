@@ -7,9 +7,15 @@ cd  crypto_exchange_fullstack
 
 cd front_end
 
-npm install
+npm install axios react-router-dom  
+npm install  chart.js react-chartjs-2
+npm install @mui/material @emotion/react
 
-npm install -D tailwindcss postcss autoprefixer
+npm install  @emotion/styled @mui/icons-material
+npm install -D tailwindcss
+npm install  postcss autoprefixer
+
+
 npx tailwindcss init -p
 
 npm install react-router-dom
@@ -18,3 +24,25 @@ npm install -D @tailwindcss/postcss
 
 
 npm run dev
+
+
+front_end/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Auth/
+│   │   │   ├── Login.tsx
+│   │   │   └── Register.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── Market.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── TransactionsForm.tsx
+│   │   ├── Wallet.tsx
+│   │   └── TransactionsHistory.tsx
+│   ├── services/
+│   │   ├── api.tsx
+│   │   └── auth.tsx
+│   ├── App.tsx
+│   ├── App.css
+│   └── index.js
+└── package.json
